@@ -1,0 +1,273 @@
+*{ 
+    color: white;
+}
+body{
+  background-color: rgb(51, 51, 51);
+}
+    nav{
+    margin-top: -1.5%;
+    margin-right: 5%;
+}
+nav img{
+    margin-left: -7%;
+}
+#section-one{
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url("http://s3-us-west-2.amazonaws.com/techvibes/wp-content/uploads/2017/04/24135159/Netflix-Background.jpg");
+    background-size: cover;
+    text-align: center;
+    padding-bottom: 13%;
+}
+.title h1{
+    
+    font-size: 4rem;
+    margin-left: 30%;
+    width: 40%;
+}
+.title p{
+    padding: 0.5% 0%;
+    font-size: xx-large;
+}
+.title .second-p{
+    font-size: x-large;
+}
+form{
+    display: flex;
+    align-items: center;
+    font-size: larger;
+    margin-left: 25%;
+    width: 100%;
+}
+.title{
+    margin-top: 7%;
+}
+input{
+    border-radius: 3px;
+    padding: 18px 11px;
+    padding-right: 390px;
+}
+.btn {
+    background: 	#E50914;
+    background-image: -webkit-linear-gradient(top,	#E50914,	#E50914);
+    background-image: -moz-linear-gradient(top,	#E50914,	#E50914);
+    background-image: -ms-linear-gradient(top, 	#E50914, 	#E50914);
+    background-image: -o-linear-gradient(top, 	#E50914, 	#E50914);
+    background-image: linear-gradient(to bottom, 	#E50914, 	#E50914);
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 3px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 27px;
+    padding: 13px 40px 13px 40px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, rgb(126, 0, 0), rgb(126, 0, 0));
+    background-image: -moz-linear-gradient(top, rgb(126, 0, 0), rgb(126, 0, 0));
+    background-image: -ms-linear-gradient(top, rgb(126, 0, 0), rgb(126, 0, 0));
+    background-image: -o-linear-gradient(top, rgb(126, 0, 0), rgb(126, 0, 0));
+    background-image: linear-gradient(to bottom, rgb(126, 0, 0), rgb(126, 0, 0));
+    text-decoration: none;
+  }
+  .btn-two{
+        background: 	#E50914;
+        background-image: -webkit-linear-gradient(top,	#E50914,	#E50914);
+        background-image: -moz-linear-gradient(top,	#E50914,	#E50914);
+        background-image: -ms-linear-gradient(top, 	#E50914, 	#E50914);
+        background-image: -o-linear-gradient(top, 	#E50914, 	#E50914);
+        background-image: linear-gradient(to bottom, 	#E50914, 	#E50914);
+        -webkit-border-radius: 5;
+        -moz-border-radius: 5;
+        border-radius: 3px;
+        font-family: Georgia;
+        color: #ffffff;
+        font-size: 20px;
+        padding: 10px 17px 10px 17px;
+        text-decoration: none;
+      
+  }
+  
+
+  /* Section two */
+
+  #section-two{
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    padding: 9% 0% 5% 0%;
+    margin-top: 0.7%;
+  }
+
+  #section-two .text{
+    margin-top: 15%;
+  }
+  #section-two h1{
+    font-size: 4rem;
+    margin-left: 15%;
+  }
+  #section-two p{
+    font-size: 2rem;
+    margin-left: 15%;
+    width: 73%;
+  }
+  #section-two img{
+    margin-right: 5%;
+    width: 70%;
+  }
+
+ 
+  /* Section three */
+
+  #section-three{
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 5% 5% 5%;
+    margin-top: 0.7%;
+  }
+  #section-three h1{
+    font-size: 4rem;
+    padding-right: 5%;
+  }
+  #section-three p{
+    font-size: 2rem;
+    width: 73%;
+  }
+  #section-three .text{
+    padding-top: 6%;
+  }
+  #section-three img{
+    margin-left: 10%;
+    margin-bottom: 10%;
+  }
+
+  /* Section Four */
+
+  #section-four{
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    padding: 0% 5% 0% 5%;
+    margin-top: 0.7%;
+  }
+  #section-four h1{
+    font-size: 4rem;
+    margin-left:10%;
+  }
+  #section-four p{
+    font-size: 2rem;
+    margin-left:10%;
+  }
+  
+  
+
+  /* Section five */
+
+  #section-five{
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 5% 5% 5%;
+    margin-top: 0.7%;
+  }
+  #section-five h1{
+    font-size: 4rem;
+    padding-right: 5%;
+  }
+  #section-five p{
+    font-size: 2rem;
+    width: 100%;
+  }
+  #section-five .text{
+    padding-top: 6%;
+  }
+  #section-five img{
+    margin-left: 10%;
+    margin-bottom: 10%;
+  }
+
+  /* FAQ Section */
+
+#faq-section{
+  background-color: black;
+  padding: 10% 0%;
+  margin-top: 0.75%;
+  text-align: center;
+}  
+
+#faq-section h1{
+  font-size: 4rem;
+margin-bottom: 5%;
+}
+#faq-section p{
+  font-size: 2rem;
+  text-align: left;
+}
+#faq-section .row{
+ margin: 0 auto;
+  width: 53%;
+}
+.col-lg-12{
+  background-color: rgb(46, 45, 45);
+  height: 80px;
+  transform: translateY(-50%);
+  margin-top: 1%;
+}
+#faq-section{
+  font-size: larger;
+}
+#faq-section .second-p{
+  text-align: center;
+  font-size: larger;
+  margin-top: 4%;
+}
+.col-lg-12 button{
+  background-color: inherit; 
+  border: none;
+  font-size: xx-large;
+ margin-left: 47%;
+}
+.col-lg-12 .one{
+  margin-left: 69%;
+}
+.col-lg-12 .three{
+  margin-left: 51% ;
+}
+.col-lg-12 .four{
+  margin-left: 66.5%;
+}
+.col-lg-12 .five{
+  margin-left:48% ;
+}
+.col-lg-12 .six{
+  margin-left:55% ;
+}
+.question{
+  display: flex;
+}
+  /* Footer */
+
+#footer{
+  background-color: black;
+  margin-top: 0.75%;
+  margin-bottom: 0%;
+  padding: 5% 10% 3% 16%;
+  
+}
+#footer a{
+  text-decoration: none;
+  color: gray;
+}
+#footer p{
+  color: gray;
+  font-size: large;
+}
+.netflix{
+  margin-top: 2%;
+}
+.questions{
+  font-size: larger;
+}
